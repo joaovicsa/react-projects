@@ -1,12 +1,11 @@
 /** @format */
 
-import Post from './components/Post'
+import PostsList from './components/PostsList'
 
 function App() {
   return (
     <main>
-      <Post author="João" body="This is React.js!" />
-      <Post author="Sebas" body="How can I help you, Sir?" />
+      <PostsList />
     </main>
   )
 }
